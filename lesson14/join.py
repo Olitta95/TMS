@@ -1,0 +1,1 @@
+select students.id,students.first_name, students.last_name,exam_grades.subject_name, exam_grades.grades, exam_grades.exam_date from students join  exam_grades on students.id=exam_grades.student_id  order by exam_grades.grades desc;
